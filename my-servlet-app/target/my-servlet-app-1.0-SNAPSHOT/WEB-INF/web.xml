@@ -5,7 +5,7 @@
 
     <servlet>
         <servlet-name>my-first-servlet</servlet-name>
-        <servlet-class>com.Ali.app.AppServlet</servlet-class>
+        <servlet-class>com.hatim.app.AppServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>my-first-servlet</servlet-name>
@@ -14,7 +14,7 @@
     
      <servlet>
         <servlet-name>Hi</servlet-name>
-        <servlet-class>com.Ali.app.HelloServlet</servlet-class>
+        <servlet-class>com.hatim.app.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Hi</servlet-name>

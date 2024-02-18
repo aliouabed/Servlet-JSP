@@ -17,7 +17,7 @@ public class AppServlet extends HttpServlet{
         PrintWriter out = resp.getWriter();
         out.write("<h1>Hellow Servlet with 'web.xml configuration'</h1>");
 		out.write("<h2>Enter yout name</h2>");
-		out.write("<FORM METHOD=GET ACTION='./hello-you-3'> ");
+		out.write("<FORM METHOD=GET ACTION='./hello-you'> ");
 		out.println("<input type='text' name='your_name'/>");
 		out.println("<input type='submit' value='ENTER'/>");
 		out.write("</FORM> ");
