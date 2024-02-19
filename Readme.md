@@ -46,3 +46,33 @@ There are many advantages of Servlet over CGI. The web container creates threads
 - Portability: because it uses Java language.
 - Robust: JVM manages Servlets, so we don't need to worry about the memory leak, garbage collection, etc.
 - Secure: because it uses java language.
+
+## Servlet Filter
+
+A filter is an object that is invoked at the preprocessing and postprocessing of a request.
+
+It is mainly used to perform filtering tasks such as conversion, logging, compression, encryption and decryption, input validation etc.
+
+The servlet filter is pluggable, i.e. its entry is defined in the web.xml file, if we remove the entry of filter from the web.xml file, filter will be removed automatically and we don't need to change the servlet.
+
+So maintenance cost will be less.
+
+![Srvelt](Ressources/filter.jfif)
+
+### Usage of Filter
+
+-recording all incoming requests
+
+- logs the IP addresses of the computers from which the requests originate
+- conversion
+- data compression
+- encryption and decryption
+- input validation etc.
+
+### Advantage of Filter
+
+- Filter is pluggable.
+- One filter don't have dependency onto another resource.
+- Less Maintenance
+
+#### The folder (my-servlet-app-with-filter) is a simple example of a Servlet Filter whene RACHID is not allowed in!
