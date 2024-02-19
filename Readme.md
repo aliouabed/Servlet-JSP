@@ -75,4 +75,4 @@ So maintenance cost will be less.
 - One filter don't have dependency onto another resource.
 - Less Maintenance
 
-#### The folder (my-servlet-app-with-filter) is a simple example of a Servlet Filter whene RACHID is not allowed in!
+#### The folder (my-servlet-app-with-filter) is a simple example of a Servlet Filter where RACHID is not allowed in!
